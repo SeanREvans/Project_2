@@ -1,5 +1,5 @@
 console.log("YAY");
-  d3.json("/geojson", function(data) {
+  d3.json("Data/fortune_500_v3.geojson", function(data) {
     console.log("something");
     console.log(data);
     // Once we get a response, send the data.features object to the createFeatures function
