@@ -1,0 +1,32 @@
+/* remove default margin and padding from body */
+body {
+  padding: 15;
+  margin: 15;
+  color: blue;
+}
+
+h1 {
+color: black;
+font-family: verdana;
+font-size: 300%;
+}
+
+h5 {
+color: black;
+font-family: verdana;
+font-size: 100%;
+}
+
+h6 {
+color: black;
+font-family: verdana
+font-size: 100%;
+}
+
+/* set map, body, and html to 100% of the screen size */
+/*#map,
+body,
+html {
+  height: 100%;
+}
+*/
