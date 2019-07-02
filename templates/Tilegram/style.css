@@ -1,7 +1,7 @@
 /* remove default margin and padding from body */
 body {
-  padding: 30;
-  margin: 30;
+  padding: 15;
+  margin: 15;
   color: blue;
 }
 
@@ -24,8 +24,9 @@ font-size: 100%;
 }
 
 /* set map, body, and html to 100% of the screen size */
-#map,
+/*#map,
 body,
 html {
   height: 100%;
 }
+*/

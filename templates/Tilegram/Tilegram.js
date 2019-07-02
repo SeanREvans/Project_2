@@ -353,8 +353,8 @@ function loadTilegram(tilejson){
 
 // }
 
-var WIDTH = 2300
-var HEIGHT = 1200
+var WIDTH = 1200
+var HEIGHT = 600
 
 // build list of state codes
         var stateCodes = [];
@@ -380,7 +380,7 @@ d3.json(tilejson, function showData(error, tilegram) {
   var path = d3.geoPath().projection(transform)
 
   var g = svg.append('g')
-    .attr('transform', 'translate(0,' + HEIGHT + ')')
+    .attr('transform', 'translate(0,' + HEIGHT + ') scale(.5)')
 
   // g.selectAll('.tiles')
   //   .data(tiles.features)
