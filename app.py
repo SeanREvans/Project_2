@@ -16,15 +16,15 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     """Render Home Page."""
-    return render_template("templates/index.html")
+    return render_template("index.html")
 
 @app.route("/viz2")
 def viz2():    
-    return render_template('templates/map2.html')
+    return render_template('map2.html')
 
 @app.route("/viz3")
 def viz3():
-    return render_template('templates/map3.html')
+    return render_template('map3.html')
 
 
 @app.route('/geojson')
